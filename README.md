@@ -47,19 +47,19 @@ It is important to observe good coding practices when implementing large code pr
 
 ~ Pick a naming convention and use it consistently
 
-  -> Differentiate between variable names and routine names, between global and local variables, between constants and variables
+  > Differentiate between variable names and routine names, between global and local variables, between constants and variables
   
-  -> Use camel case, underscoring, or both (for different things), but not neither
+  > Use camel case, underscoring, or both (for different things), but not neither
   
     - Camel Case: numberOfWidgets
     
     - Underscoring: number_of_widgets
     
-  -> Constants are all uppercase: GRAVITY, COEFF_FRICTION, KG_PER_LBM
+  > Constants are all uppercase: GRAVITY, COEFF_FRICTION, KG_PER_LBM
   
-  -> Indices are i,j,k
+  > Indices are i,j,k
   
-  -> c is a character, s is a string, n is a counting number
+  > c is a character, s is a string, n is a counting number
   
 **Error handling**
 
@@ -67,49 +67,49 @@ It is important to observe good coding practices when implementing large code pr
 
 ~ Handle garbage in
 
-  -> Check values of data from external sources
+  > Check values of data from external sources
   
-  -> Check values of all input parameters
+  > Check values of all input parameters
   
-  -> Decide how to handle bad inputs
+  > Decide how to handle bad inputs
   
 ~ Handle expected errors appropriately, e.g. one or a combination of
 
-  -> Substitute the next piece of valid data
+  > Substitute the next piece of valid data
   
-  -> Substitute the closest legal value
+  > Substitute the closest legal value
   
-  -> Return the same answer as the previous time
+  > Return the same answer as the previous time
   
-  -> Return an error code
+  > Return an error code
   
-  -> Display an error/warning message
+  > Display an error/warning message
   
-  -> Log an error/warning message to a file
+  > Log an error/warning message to a file
   
-  -> Shut down
+  > Shut down
   
 ~ Fail gracefully on unexpected errors:
 
-  -> use try/catch blocks
+  > use try/catch blocks
   
-  -> make it very hard to crash the program
+  > make it very hard to crash the program
   
 **Code layout and style**
 
 ~ Use whitespace appropriately to maximize readability
 
-  -> Spaces, tabs, newlines
+  > Spaces, tabs, newlines
   
 ~ Good visual layout accurately and consistently represents the logical structure of a program
 
 ~ Group related code together into blocks, like paragraphs in an essay
 
-  -> Put a blank line between blocks
+  > Put a blank line between blocks
   
 ~ No more than 80 characters per line
 
-  -> Indent continuation lines
+  > Indent continuation lines
 
 Deliverables.
 
