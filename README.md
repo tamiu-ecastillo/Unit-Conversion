@@ -111,7 +111,6 @@ It is important to observe good coding practices when implementing large code pr
 
   > Indent continuation lines
 
-
 Deliverables.
 
 As stated above, this is a group project and each group is responsible for the deliverables listed below.
