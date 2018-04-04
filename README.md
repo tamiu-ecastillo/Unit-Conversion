@@ -13,39 +13,39 @@ It is important to observe good coding practices when implementing large code pr
 
 **Comment your code**
 
-o Comments should explain the code’s intent or summarize what it does
+~ Comments should explain the code’s intent or summarize what it does
 
-o Comments should be kept up to date
+~ Comments should be kept up to date
 
-o Comments should be clear and correct
+~ Comments should be clear and correct
 
-o Avoid endline comments
+~ Avoid endline comments
 
-o Focus on why rather than how
+~ Focus on why rather than how
 
-o Avoid abbreviations
+~ Avoid abbreviations
 
-o Remove extraneous, redundant, and self-indulgent comments
+~ Remove extraneous, redundant, and self-indulgent comments
 
-o Comment on units and ranges of data
+~ Comment on units and ranges of data
 
-o Comment on limitations of input data
+~ Comment on limitations of input data
 
-o Comment every global variable
+~ Comment every global variable
 
-o Don’t use a comment where renaming a variable or function would also work
+~ Don’t use a comment where renaming a variable or function would also work
 
-o Explain the purpose of every routine and give facts about its input, output, usage, limitations, error corrections, global effects, and sources of algorithms
+~ Explain the purpose of every routine and give facts about its input, output, usage, limitations, error corrections, global effects, and sources of algorithms
 
-o Good code should document itself; if the code requires extensive commenting, rewrite the code
+~ Good code should document itself; if the code requires extensive commenting, rewrite the code
 
 **Variable and routine naming**
 
-o Names should fully and accurately describe the entity the variable represents, or the function the routine computes
+~ Names should fully and accurately describe the entity the variable represents, or the function the routine computes
 
-o Names should not be too short or too long, somewhere between 10 and 16 characters on average is the best
+~ Names should not be too short or too long, somewhere between 10 and 16 characters on average is the best
 
-o Pick a naming convention and use it consistently
+~ Pick a naming convention and use it consistently
 
   -> Differentiate between variable names and routine names, between global and local variables, between constants and variables
   
@@ -63,9 +63,9 @@ o Pick a naming convention and use it consistently
   
 **Error handling**
 
-o Practice defensive programming
+~ Practice defensive programming
 
-o Handle garbage in
+~ Handle garbage in
 
   -> Check values of data from external sources
   
@@ -73,7 +73,7 @@ o Handle garbage in
   
   -> Decide how to handle bad inputs
   
-o Handle expected errors appropriately, e.g. one or a combination of
+~ Handle expected errors appropriately, e.g. one or a combination of
 
   -> Substitute the next piece of valid data
   
@@ -89,7 +89,7 @@ o Handle expected errors appropriately, e.g. one or a combination of
   
   -> Shut down
   
-o Fail gracefully on unexpected errors:
+~ Fail gracefully on unexpected errors:
 
   -> use try/catch blocks
   
@@ -97,17 +97,17 @@ o Fail gracefully on unexpected errors:
   
 **Code layout and style**
 
-o Use whitespace appropriately to maximize readability
+~ Use whitespace appropriately to maximize readability
 
   -> Spaces, tabs, newlines
   
-o Good visual layout accurately and consistently represents the logical structure of a program
+~ Good visual layout accurately and consistently represents the logical structure of a program
 
-o Group related code together into blocks, like paragraphs in an essay
+~ Group related code together into blocks, like paragraphs in an essay
 
   -> Put a blank line between blocks
   
-o No more than 80 characters per line
+~ No more than 80 characters per line
 
   -> Indent continuation lines
 
